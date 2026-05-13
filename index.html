@@ -339,22 +339,14 @@ input:checked+.toggle-sl:before{transform:translateX(20px)}
 
 <!-- SPLASH -->
 <div id="splash">
-  <div class="sscene">
-    <div class="sorbit"></div>
-    <svg style="position:absolute;inset:0;pointer-events:none" viewBox="0 0 260 260">
-      <line id="sl1" class="sline" x1="130" y1="26" x2="234" y2="130"/>
-      <line id="sl2" class="sline" x1="234" y1="130" x2="130" y2="234"/>
-      <line id="sl3" class="sline" x1="130" y1="234" x2="26" y2="130"/>
-      <line id="sl4" class="sline" x1="26" y1="130" x2="130" y2="26"/>
-    </svg>
-    <div class="snode sn1" id="sn1" style="font-size:22px">📖</div>
-    <div class="snode sn2" id="sn2" style="font-size:22px">⚽</div>
-    <div class="snode sn3" id="sn3" style="font-size:22px">👥</div>
-    <div class="snode sn4" id="sn4" style="font-size:22px">💡</div>
-    <div class="scenter" id="scenter"><div class="scc" style="font-size:28px;width:64px;height:64px;border-radius:50%;background:linear-gradient(135deg,#e91e8c,#302b63);display:flex;align-items:center;justify-content:center;margin:0 auto 6px;box-shadow:0 0 24px rgba(233,30,140,.4)">🎓</div><div style="font-weight:800;font-size:18px;color:#fff">Étu<span style="color:#e91e8c">Connect</span></div></div>
+  <div id="logo-wrap">
+    <div id="logo-ring">
+      <div id="logo-icon">🎓</div>
+    </div>
+    <div id="logo-name">Étu<span>Connect</span></div>
+    <div id="logo-tagline" id="splash-slogan">Rencontre, partage, réussite collective</div>
   </div>
-  <div class="stag" id="stag"><p id="splash-slogan">Rencontre, partage, réussite collective</p></div>
-  <div class="sbtns" id="sbtns">
+  <div id="sbtns">
     <button class="sbtn main" id="sbtn-create" onclick="showAuth('register')">Créer un compte</button>
     <button class="sbtn sec" id="sbtn-login" onclick="showAuth('login')">Se connecter</button>
   </div>
